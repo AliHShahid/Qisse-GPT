@@ -1,0 +1,22 @@
+# Streamlit for UI
+streamlit
+
+# LangChain core and community packages
+langchain
+langchain-community
+
+# Groq LLM integration
+langchain-groq
+
+# Qdrant Vector Store
+langchain-qdrant
+qdrant-client
+
+# Embeddings
+sentence-transformers
+
+# PDF loading
+pypdf
+
+# Required for text splitting and parsing
+tqdm

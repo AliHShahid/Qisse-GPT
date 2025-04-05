@@ -43,8 +43,8 @@ split_docs = text_splitter.split_documents(documents)
 embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 
 # Qdrant VectorStore
-qdrant_url = "https://6058cda6-8eed-45cd-af5c-55b0db597fc2.us-west-1-0.aws.cloud.qdrant.io:6333"
-qdrant_key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.2k7LrVa7tBBYgBtdPkpmZj_3YKhXyQdyWlseSO54RFY"
+qdrant_url = "Ypour Qdrant URL"
+qdrant_key = "Your Qdrant API Key"
 collection_name = "Poetry DB VSCode"
 qdrant = QdrantVectorStore.from_documents(
     split_docs,
@@ -65,7 +65,7 @@ if query:
         st.write(result.page_content)
 
     # Synthesis using LLM
-    os.environ["GROQ_API_KEY"] = "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"
+    os.environ["GROQ_API_KEY"] = "Your Groq API Key"
     def format_docs(docs):
         return "\n\n".join(doc.page_content for doc in docs)
 

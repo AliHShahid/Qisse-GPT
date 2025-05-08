@@ -23,8 +23,8 @@ st.write("Welcome to the Shayari Retrieval and Synthesis application!")
 
 pdf_files = [
     "Sahayari/ahmad_faraz.pdf",
-    # "Sahayari/allama_iqbal.pdf",
-    # "Sahayari/faiz_ahmad_faiz.pdf",
+    "Sahayari/allama_iqbal.pdf",
+    "Sahayari/faiz_ahmad_faiz.pdf",
     # "Sahayari/haider_ali_atish.pdf",
     # "Sahayari/jaun_elia.pdf",
     # "Sahayari/mir_taqi_mir.pdf",

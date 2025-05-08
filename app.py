@@ -8,7 +8,7 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url("C:\Users\Dell\Desktop\Data Science S2\ShayariDB VSCode\Qisse-GPT\download.jpeg");
+        background-image: url(r"C:\Users\Dell\Desktop\Data Science S2\ShayariDB VSCode\Qisse-GPT\download.jpeg");
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;

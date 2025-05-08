@@ -4,7 +4,22 @@ from utils.splitter import split_documents
 from vectorstore.qdrant_setup import get_vectorstore
 from llm.synthesis_chain import get_response_chain
 
-st.title("ShayariDB Poetry Retrieval")
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-image: url("https://your-image-url.com/background.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+st.title("Qisse-GPT: Shayari Retrieval and Synthesis")
+st.write("Welcome to the Shayari Retrieval and Synthesis application!")
 
 pdf_files = [
     "Sahayari/allama_iqbal.pdf",
